@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculatorStyle.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    
+    <div class="boxy">
+<form method="post" action="calculatorJS.js">
+
+    <br>
+    <br>
+    <input type="number" alt="Number 1" id="n1" placeholder="Number 1">
+    <br>
+    <br>
+    <br>
+    <input type="number" alt="Number 2" id="n2"  placeholder="Number 2">
+
+</form>
+
+
+<div id="botao">
+    <button onclick="operators('+')">+</button>
+    <button onclick="operators('-')">-</button>
+    <button onclick="operators('*')">*</button>
+    <button onclick="operators('/')">/</button>
+
+</div>  
+
+
+<p id="p1"></p>
+
+    </div>
+
+
+
+    <script src="calculatorJS.js">
+    </script>
+</body>
+</html>
